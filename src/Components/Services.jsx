@@ -32,12 +32,10 @@ const Services = () => {
         </p>
         {/* client company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-5">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src="/src/assets/clientAPSCL.png" alt="" />
+          <img src="/src/assets/clientnutan-bidyut-logo.webp" alt="" />
+          <img src="/src/assets/client3.png" alt="" />
+          <img src="/src/assets/client5.png" alt="" />
         </div>
       </div>
 
@@ -49,14 +47,18 @@ const Services = () => {
         <p className="text-neutralDGrey">Who is NAR Group suitable for?</p>
       </div>
       {/* card */}
-      <div>
+      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
         {services.map((service) => (
-          <div key={service.id}>
+          <div
+            key={service.id}
+            className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer 
+          hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
+          >
             <div>
               <h4 className="text-2xl font-bold text-neutralDGrey mb-2 px-2">
                 {service.title}
               </h4>
-              <p className="">{service.description}</p>
+              <p className="text-sm text-neutralGrey">{service.description}</p>
             </div>
           </div>
         ))}

@@ -34,6 +34,9 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* Company Stats */}
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16"></div>
     </div>
   );
 };

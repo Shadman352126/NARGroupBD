@@ -7,18 +7,21 @@ const Services = () => {
       title: "Membership Organizations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
+      images: "/src/assets/Icon.svg",
     },
     {
       id: 2,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
+      images: "/src/assets/Icon (1).svg",
     },
     {
       id: 3,
       title: "Clubs And groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
+      images: "/src/assets/Icon (2).svg",
     },
   ];
   return (
@@ -55,6 +58,9 @@ const Services = () => {
           hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
           >
             <div>
+              <div className="bg-[#E8F5E9] h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl">
+                <img src={service.images} alt="" className="-ml-5 w-full" />
+              </div>
               <h4 className="text-2xl font-bold text-neutralDGrey mb-2 px-2">
                 {service.title}
               </h4>

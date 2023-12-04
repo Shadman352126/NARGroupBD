@@ -74,7 +74,7 @@ const Navbar = () => {
           </ul>
 
           {/* button for larger devices */}
-          <div className="space-x-12 hidden lg:flex items-center">
+          {/* <div className="space-x-12 hidden lg:flex items-center">
             <a
               href="/"
               className="hidden lg:flex items-center text-brandPrimary hover:text-gray-900"
@@ -84,7 +84,7 @@ const Navbar = () => {
             <button className="bg-brandPrimary text-white px-4 py-2 transition-all duration-300 rounded hover:bg-neutralGrey">
               Sign Up
             </button>
-          </div>
+          </div> */}
           {/* menu button for only mobile devices */}
           <div className="md:hidden">
             <button

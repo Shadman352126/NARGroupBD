@@ -22,7 +22,7 @@ const Home = () => {
               <p className="text-neutralDGrey text-lg font-semibold mb-8">
                 100% Quality completion every Task
               </p>
-              <button className="btn-primary">Register</button>
+              {/* <button className="btn-primary">Register</button> */}
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
@@ -38,7 +38,7 @@ const Home = () => {
               <p className="text-neutralDGrey text-lg font-semibold mb-8">
                 100% Quality completion every Task
               </p>
-              <button className="btn-primary">Register</button>
+              {/* <button className="btn-primary">Register</button> */}
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
@@ -54,7 +54,7 @@ const Home = () => {
               <p className="text-neutralDGrey text-lg font-semibold mb-8">
                 100% Quality completion every Task
               </p>
-              <button className="btn-primary">Register</button>
+              {/* <button className="btn-primary">Register</button> */}
             </div>
           </div>
         </Carousel>

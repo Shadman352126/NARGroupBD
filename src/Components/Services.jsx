@@ -35,10 +35,13 @@ const Services = () => {
         </p>
         {/* client company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-5">
-          <img src="/src/assets/clientAPSCL.png" alt="" />
-          <img src="/src/assets/clientnutan-bidyut-logo.webp" alt="" />
-          <img src="/src/assets/client3.png" alt="" />
-          <img src="/src/assets/client5.png" alt="" />
+          <img src="https://i.ibb.co/xYgWdpq/client-APSCL.png" alt="" />
+          <img
+            src="https://i.ibb.co/3Y40SgQ/clientnutan-bidyut-logo.webp"
+            alt=""
+          />
+          <img src="https://i.ibb.co/hBHCrny/client3.png" alt="" />
+          <img src="https://i.ibb.co/vPGwfXk/client5.png" alt="" />
         </div>
       </div>
 
